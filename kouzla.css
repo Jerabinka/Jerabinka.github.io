@@ -1,0 +1,88 @@
+.js .schovat div {
+  display: none;
+  } 
+  
+  .spell {
+  display: inline;
+}
+
+.spell button {
+  display: inline;
+}
+
+.schovat div {
+  display: none;
+  }
+
+.ukazat div {
+  display: block;
+}
+
+.schovat p {
+  display: none;
+}
+
+.ukazat p {
+  display: block;
+}
+
+ 
+.schovat button {
+   display: inline;
+   }
+   
+.ukazat button {
+  display: inline;
+  }
+
+
+h3 {
+  display: inline;
+  width: 200px;
+  padding: 5px;
+  border: solid black 1px;
+  
+}
+
+.lvl_1 h3 {
+  color: lime;
+  background: green;
+}
+
+.lvl_2 h3 {
+  color: green;
+}
+
+.lvl_3 h3 {
+  color: #00FFFF;
+  background: blue;
+}
+
+.lvl_4 h3 {
+  color: blue;
+  
+}
+
+.lvl_5 h3 {
+  color: purple;
+  
+}
+
+.lvl_6 h3 {
+  color: #FF00FF;
+  background: purple;
+}
+
+.lvl_7 h3 {
+  color: pink;
+  background: purple;
+}
+
+.lvl_8 h3 {
+  color: red;
+  background: pink;
+}
+
+.lvl_9 h3 {
+  color: orange;
+}
