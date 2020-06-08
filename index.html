@@ -2,61 +2,27 @@
 <html>
  <head>
    <link rel="stylesheet" type="text/css" href="kouzla.css">
-.js .schovat div {
-  display: none;
-  } 
-  
-  .spell {
-  display: inline;
-}
-
-.spell button {
-  display: inline;
-}
-
-.schovat div {
-  display: none;
-  }
-
-.ukazat div {
-  display: block;
-}
-
-.schovat p {
-  display: none;
-}
-
-.ukazat p {
-  display: block;
-}
-
- 
-.schovat button {
-   display: inline;
-   }
-   
-.ukazat button {
-  display: inline;
-  }
-
-
-h3 {
-  display: inline;
-  width: 200px;
-  padding: 5px;
-  border: solid black 1px;
-  
-}
-   </style>
  </head> 
 
 
  <body> 
+  krásný odkaz na pravidla povolání a další pravidla DnD: <a href="http://dnd5esrd.d20.cz/prirucka-hrace/3-kapitola.html#barbar"><br>
+  je tam i krásný seznam kouzel, ale já chci lepší! (když už jsem začala... :D)
   <form>
    jsi: 
+   <input type="radio" name="puntik" value="barbar"> barbar 
    <input type="radio" name="puntik" value="bard"> bard 
+   <input type="radio" name="puntik" value="bojovník"> bojovník
+   <input type="radio" name="puntik" value="čaroděj"> čaroděj 
+   <input type="radio" name="puntik" value="černokněžník"> černokněžník 
+   <input type="radio" name="puntik" value="druid"> druid 
+   <input type="radio" name="puntik" value="hraničář"> hraničář 
    <input type="radio" name="puntik" value="klerik"> klerik 
    <input type="radio" name="puntik" value="kouzelník"> kouzelník 
+   <input type="radio" name="puntik" value="mnich"> mnich
+   <input type="radio" name="puntik" value="paladin"> paladin
+   <input type="radio" name="puntik" value="tulák"> tulák
+   <button> toto tlačítko zatím nedělá nic, ale nastanou časy kdy vybere kouzla jen pro určitá povolání, která seřadí podle úrovně. Snad :)</button>
   </form> 
   <script> document.body.className+='js' </script> 
   <h1> Kouzla abecedně </h1> 
