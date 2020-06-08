@@ -9,6 +9,6 @@ CREATE TABLE kouzlo (id INT,
 název VARCHAR(20) NOT NULL PRIMARY KEY,
 level SMALLINT UNSIGNED, 
 povolání ENUM('Bard', 'Druid', 'Klerik', 'Kouzelník', 'Čarodej', 'Černokněžník', 'Warlock'), 
-dosah METER, Verbální BOOLEAN, P BOOLEAN, S BOOLEAN, potřeby VARCHAR(40), cena INT, vyvolání ENUM('soustredeni', '-'), vyvolávání TIME, trvání TIME)
+dosah INT, Verbální BOOL, P BOOL, S BOOL, potřeby VARCHAR(40), cena INT, vyvolání ENUM('soustredeni', '-'), vyvolávání TIME, trvání TIME)
 
  
